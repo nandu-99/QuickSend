@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const mailRoutes = require('./routes/mailRoutes');
-const cors = requie('cors')
+const cors = require('cors')
 
 const app = express();
 const PORT = 3000;
